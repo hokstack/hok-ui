@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build && npm run copy-redirects && npm start"
-  publish = "dist"
+  command = "yarn run build && yarn run copy-redirects"
+  publish = "build"
 
 [[redirects]]
   from = "/*"
-  to = "/public/index.html"
+  to = "/index.html"
   status = 200
   force = true
