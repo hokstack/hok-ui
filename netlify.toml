@@ -1,5 +1,5 @@
 [build]
-  command = "yarn run build"
+  command = "yarn run build && yarn run copy-redirects"
   publish = "build"
 
 [[redirects]]
